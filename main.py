@@ -58,6 +58,22 @@ else:
 
 print('You are happy') if isHappy else print('You are not happy')"""
 
-for i in range(10):
-    print('Hello', i + 1)
+"""for i in range(10):
+    print('Hello', i + 1)"""
 
+"""name_list = ['Luigi', 'Mario', 'Toad']
+
+for name in name_list:
+    print(name)"""
+
+"""i = 0
+
+while i < 5:
+    i += 1
+    print(i)"""
+
+while True:
+    user_input = input('Enter something >> ')
+    if user_input == '0':
+        print('We are done here.')
+        break
