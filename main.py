@@ -90,3 +90,10 @@ say_hello('Luigi')"""
 def run_game():
     pass"""
 
+number = input('Please provide a number >> ')
+
+try:
+    print(10 + int(number))
+
+except ValueError:
+    print('That is not a valid number!')
