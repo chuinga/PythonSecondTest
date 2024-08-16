@@ -72,8 +72,21 @@ while i < 5:
     i += 1
     print(i)"""
 
-while True:
+"""while True:
     user_input = input('Enter something >> ')
     if user_input == '0':
         print('We are done here.')
-        break
+        break"""
+
+"""def say_hello(name):
+    print('Hey there', name)
+
+say_hello('Mario')
+say_hello('Luigi')"""
+
+"""def get_internet():
+    pass
+
+def run_game():
+    pass"""
+
